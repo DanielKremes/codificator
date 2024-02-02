@@ -1,0 +1,154 @@
+:root {
+    --color-0: #000;
+    --color-1: #fff;
+    --color-2: #00DAF7;
+    --color-3: #130016;
+}
+
+.header {
+    background-color: var(--color-3);
+    padding: 1rem 0;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.header a {
+    color: var(--color-2);
+    text-decoration: none;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin: 1rem 1rem;
+    min-height: 100vh;
+}
+
+.content_left {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.content_description {
+    margin: 1rem 0;
+}
+
+.content_description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content_description h1 {
+    font-size: 3rem;
+    color: var(--color-1);
+}
+
+.content_description strong {
+    color: var(--color-2);
+}
+
+.content_description p {
+    font-size: 1.5rem;
+    color: var(--color-1);
+}
+
+.button_left {
+    display: flex;
+}
+
+.button_left button {
+    flex: 1;
+    height: 3rem;
+    font-size: var(--font-size-placeholder);
+    background-color: var(--color-0);
+    color: var(--cor0);
+    opacity: 0.7;
+}
+
+.content_left textarea {
+    width: 100%;
+    font-size: var(--font-size-placeholder);
+    color: var(--cor0);
+
+    min-height: 15rem;
+    resize: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.content_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.content_right textarea {
+    width: 100%;
+    font-size: var(--font-size-placeholder);
+    color: var(--cor0);
+    height: 40rem;
+    resize: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.button_right {
+    display: flex;
+    width: 100%;
+}
+
+.button_right button {
+    flex: 1;
+    background-color: var(--color-0);
+    color: var(--cor0);
+    opacity: 0.7;
+    height: 3rem;
+    font-size: var(--font-size-placeholder);
+}
+
+button {
+    border: 1px solid transparent;
+}
+
+.footer {
+    display: flex;
+    height: auto;
+    background-color: var(--color-3);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 0.8rem;
+    padding: 1rem 0rem;
+}
+
+.footer_content h2 {
+    font-size: 2rem;
+    color: var(--color-1);
+    font-weight: bold;
+}
+
+.footer_content a {
+    color: var(--color-2);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 1rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}

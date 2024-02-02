@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor0: #fff;
+    --cor1: #00daf7;
+    --cor2: #b12121;
+    --cor3: #3ec423;
+    --font-size-placeholder: 2rem;
+}
+
+::placeholder {
+    color: var(--cor1);
+    font-size: var(--font-size-placeholder);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* Para o WebKit (Safari, Chrome) */
+::-webkit-input-placeholder {
+    color: var(--cor1);
+    font-size: var(--font-size-placeholder);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* Para o Firefox */
+:-moz-placeholder {
+    color: var(--cor1);
+    font-size: var(--font-size-placeholder);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* Para o Microsoft Edge */
+::-ms-input-placeholder {
+    color: var(--cor1);
+    font-size: var(--font-size-placeholder);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--cor0);
+    background-image: url(../assets/back.jpg);
+    background-size: cover;
+    height: auto;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}

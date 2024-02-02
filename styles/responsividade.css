@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+
+    :root {
+        --cor0: #fff;
+        --cor1: #00daf7;
+        --cor2: #b12121;
+        --cor3: #3ec423;
+        --font-size-placeholder: 2rem;
+    }
+
+    .header {
+        background-color: var(--color-3);
+        padding: 1rem 0;
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header strong {
+        color: var(--color-2);
+    }
+
+
+    .container {
+        min-height: 100%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5rem 0.5rem;
+        height: 100%;
+    }
+
+    .content_left {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+    }
+
+    .content_left textarea {
+        font-size: var(--font-size-placeholder);
+        color: var(--cor0);
+        width: 100%;
+        height: auto;
+        resize: none;
+        overflow: auto;
+    }
+
+    .button_left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content_right {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .content_right textarea {
+        font-size: var(--font-size-placeholder);
+        color: var(--cor0);
+        width: 100%;
+        height: auto;
+        resize: none;
+        overflow: scroll;
+    }
+
+    .button_right {
+        display: flex;
+        width: 100%;
+    }
+
+    .button_right button {
+        flex: 1;
+        height: 3rem;
+        font-size: var(--font-size-placeholder);
+    }
+
+    button {
+        border: 1px solid var(--cor0);
+    }
+
+}
