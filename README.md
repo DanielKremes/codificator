@@ -1,5 +1,5 @@
 # Print das paginas do projeto
-# Projeto em processo de melhorias de design
+# * Projeto em processo de melhorias de design *
 ## [Veja o site do projeto clicando aqui, ou clique na imagem](https://codificator.vercel.app/)
 [![Legenda](https://github.com/DanielKremes/codificator/assets/145404663/93c8a895-4ad8-4cbd-83f5-75fd69eadd96)](https://codificator.vercel.app/)
 ## Conhecimentos usados
